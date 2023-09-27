@@ -19,9 +19,9 @@ async def raid(xspam: Client, message: Message):
             ok = await xspam.get_users(alt[2])
             id = ok.id
             if id in THE_ALTS:
-                  await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀʟᴛʀᴏɴ'ꜱ ᴏᴡɴᴇʀ")
+                  await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ sahenshah'ꜱ ᴏᴡɴᴇʀ")
             elif id == OWNER_ID:
-                  await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ.")
+                  await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ baap ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ.")
             elif id in SUDO_USERS:
                   await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ")
             else:
@@ -39,9 +39,9 @@ async def raid(xspam: Client, message: Message):
             ok = await xspam.get_users(user_id)
             id = ok.id
             if id in THE_ALTS:
-                  await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀʟᴛʀᴏɴ'ꜱ ᴏᴡɴᴇʀ")
+                  await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ sahenshah'ꜱ ᴏᴡɴᴇʀ")
             elif id == OWNER_ID:
-                  await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ.")
+                  await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ baap ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ.")
             elif id in SUDO_USERS:
                   await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ")
             else:
@@ -69,26 +69,26 @@ async def rraid(xspam: Client, message: Message):
           ok = await xspam.get_users(alt[1])
           id = ok.id
           if id in THE_ALTS:
-                await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀʟᴛʀᴏɴ'ꜱ ᴏᴡɴᴇʀ")
+                await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ sahenshah'ꜱ ᴏᴡɴᴇʀ")
           elif id == OWNER_ID:
-                await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ.")
+                await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ baap ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ.")
           elif id in SUDO_USERS:
                 await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ")
           else:
               rusers.append(id)
-              await message.reply_text("» ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʀᴇᴘʟʏʀᴀɪᴅ !! ✅")
+              await message.reply_text("» ab gaali sun !! ✅")
 
       elif message.reply_to_message:
           user_id = message.reply_to_message.from_user.id
           if user_id in THE_ALTS:
-                await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀʟᴛʀᴏɴ'ꜱ ᴏᴡɴᴇʀ")
+                await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ sahenshah'ꜱ ᴏᴡɴᴇʀ")
           elif user_id == OWNER_ID:
-                await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ.")
+                await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ baap ᴏꜰ ᴛʜᴇ ʙᴏᴛꜱ.")
           elif user_id in SUDO_USERS:
                 await message.reply_text("» ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ")
           else:
               rusers.append(user_id)
-              await message.reply_text("» ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʀᴇᴘʟʏʀᴀɪᴅ !! ✅")
+              await message.reply_text("» ab gaali sun !! ✅")
 
       else:
           await message.reply_text("𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » .rraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » .rraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
@@ -104,7 +104,7 @@ async def draid(xspam: Client, message: Message):
           id = ok.id
           if id in rusers:
               rusers.remove(id)
-              await message.reply_text("» ʀᴇᴘʟʏ ʀᴀɪᴅ ᴅᴇ-ᴀᴄᴛɪᴠᴀᴛᴇᴅ !! ✅")
+              await message.reply_text("» sun liya na gaali  !! ✅")
 
       elif message.reply_to_message:
           user_id = message.reply_to_message.from_user.id
@@ -112,7 +112,7 @@ async def draid(xspam: Client, message: Message):
           id = ok.id
           if id in rusers:
               rusers.remove(id)
-              await message.reply_text("» ʀᴇᴘʟʏ ʀᴀɪᴅ ᴅᴇ-ᴀᴄᴛɪᴠᴀᴛᴇᴅ !! ✅")
+              await message.reply_text("» sun liya na gaali !! ✅")
 
       else:
           await message.reply_text("𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐃𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » .drraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » .drraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
