@@ -1,10 +1,10 @@
 {
-    "name": "THE SAHENSHAH",
-    "logo": "https://te.legra.ph/file/50131d5f2ff665829effe.jpg",
+    "name": "ᴛʜᴇ 🇼𝔼𝔼𝔻𝕃𝔼𝔸𝔽",
+    "logo": "https://te.legra.ph/file/cce5f7d6621faf465ac65.jpg",
     "keywords": [
       "telegram",
       "bot",
-      "Altron"
+      "Weedleaf"
     ],
       "buildpacks": [{
       "url": "heroku/python"
