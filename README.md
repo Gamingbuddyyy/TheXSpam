@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/Gamingbuddyyy"><img src="https://te.legra.ph/file/50131d5f2ff665829effe.jpg"></a></p>
+<p align="center"><a href="https://t.me/Gamingbuddyyy"><img src="https://te.legra.ph/file/cce5f7d6621faf465ac65.jpg"></a></p>
 
 ━━━━━━━━━━━━━━━━━━━━━━
 
