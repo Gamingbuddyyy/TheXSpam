@@ -9,12 +9,12 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 
-FIRST_TEXT = f"""★ 𝗦𝗔𝗛𝗘𝗡𝗦𝗛𝗔𝗛 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★
+FIRST_TEXT = f"""★ 🇼𝔼𝔼𝔻𝕃𝔼𝔸𝔽 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★
 
-**» ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ:** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/AltronAds/11)
-**» ʀᴀɪᴅ ᴄᴏᴍᴍᴀɴᴅꜱ:** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/AltronAds/12)
-**» ꜱᴘᴀᴍ ᴄᴏᴍᴍᴀɴᴅꜱ:** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/AltronAds/13)
-**» ᴅᴍ ᴄᴏᴍᴍᴀɴᴅꜱ:** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/AltronAds/14)"""
+**» ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ:** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/billaganghh/22)
+**» ʀᴀɪᴅ ᴄᴏᴍᴍᴀɴᴅꜱ:** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/billaganghh/52)
+**» ꜱᴘᴀᴍ ᴄᴏᴍᴍᴀɴᴅꜱ:** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/billaganghh/53)
+**» ᴅᴍ ᴄᴏᴍᴍᴀɴᴅꜱ:** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/billaganghh/54)"""
 
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["help"], [".", "!", "/"]))
